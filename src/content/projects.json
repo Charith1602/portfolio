@@ -1,0 +1,215 @@
+[
+  {
+    "slug": "ceitm",
+    "title": "CEITM: evaluating image-text retrieval without manual ground truth",
+    "kicker": "Research · Samsung PRISM",
+    "org": "samsung",
+    "period": "Feb – Sep 2023",
+    "summary": "A semantic-similarity evaluation framework for image-text retrieval, used to benchmark CLIP, BLIP and ALBEF.",
+    "problem": "Image-text retrieval has no reliable ground-truth method: a caption can describe many images and an image can match many captions, so one-to-one labels penalize correct answers.",
+    "approach": [
+      "Designed CEITM (Cosine Enhanced Image Text Matching), which derives ground truth from semantic similarity and allows one-to-many matches instead of a one-way mapping.",
+      "Fine-tuned CLIP on Flickr8k with patch-level image resizing, contrastive loss and the Adam optimizer.",
+      "Benchmarked CLIP, BLIP and ALBEF under CEITM and compared against traditional threshold-based metrics."
+    ],
+    "results": [
+      "29% improvement in Precision@1 over the pretrained CLIP baseline.",
+      "BLIP outperformed ALBEF, which outperformed CLIP under CEITM.",
+      "Published at IEEE InCCCS 2024 and recognized with Samsung's Excellence Award."
+    ],
+    "skills": [
+      "clip",
+      "blip-albef",
+      "vit",
+      "pytorch",
+      "evaluation"
+    ],
+    "papers": [
+      "ceitm"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "oral-cancer-detection",
+    "title": "Early oral cancer detection and risk stratification",
+    "kicker": "Research · Capstone with Ramaiah Dental College",
+    "org": "ramaiah",
+    "period": "Final-year project",
+    "summary": "A multi-model pipeline that highlights malignant tissue on histopathology slides and reports risk to pathologists.",
+    "problem": "Pathologists need interpretable, dependable support on real patient slides, not a single opaque score.",
+    "approach": [
+      "EfficientNet for cancer versus non-cancer classification, YOLO-NAS for keratin pearls and multiple nucleoli, and a second EfficientNet classifier for vascular invasion.",
+      "Combined the three findings into a risk-stratification score and a pathologist-facing report.",
+      "Curated and annotated 6,000+ histopathological images with pathologists, with augmentation for class balance.",
+      "Deployed on AWS (S3, Elastic Beanstalk with CodePipeline CI/CD, Flask, MongoDB Atlas) with encrypted patient data."
+    ],
+    "results": [
+      "99.25% classification accuracy on the collected dataset.",
+      "Published at IEEE ICSEC 2024 and presented internationally.",
+      "Second place at Ramaiah's final-year project exhibition."
+    ],
+    "skills": [
+      "efficientnet",
+      "yolo",
+      "tensorflow",
+      "python",
+      "aws",
+      "mongodb",
+      "fastapi"
+    ],
+    "papers": [
+      "oral-cancer"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "artificial-eye",
+    "title": "Artificial Eye",
+    "kicker": "Project · Assistive computer vision",
+    "org": "ramaiah",
+    "period": "Undergraduate project",
+    "summary": "A blind-stick augmented with real-time object detection, OCR and speech output.",
+    "problem": "For someone relying on instant feedback, a delayed or wrong detection is a physical failure, so accuracy and speed both have to hold on constrained hardware.",
+    "approach": [
+      "Raspberry Pi 3 with an ultrasonic proximity sensor, a webcam and a speaker.",
+      "TensorFlow Lite MobileNet-SSD for detection, benchmarked against several YOLO versions.",
+      "Compared Tesseract and EasyOCR, with Google text-to-speech and Mycroft voice assistant integration."
+    ],
+    "results": [
+      "Summarized in an arXiv preprint (arXiv:2308.00801).",
+      "The project that started a focus on applied AI with real-world consequences."
+    ],
+    "skills": [
+      "tflite",
+      "ocr",
+      "yolo",
+      "python"
+    ],
+    "papers": [
+      "artificial-eye"
+    ]
+  },
+  {
+    "slug": "payments-rca-agent",
+    "title": "Multi-agent root-cause analysis for payments",
+    "kicker": "Production · Lumen Technologies",
+    "org": "lumen",
+    "period": "2024 – 2026",
+    "summary": "A LangGraph chatbot with RAG and an MCP tool server that automates log diagnostics and database lookups.",
+    "problem": "Tracing a payment failure across fragmented billing systems meant manual log reading and database queries for every incident.",
+    "approach": [
+      "Multi-agent LangGraph chatbot with RAG over Azure AI Search for the payments team.",
+      "An MCP server with dedicated tools per module, integrating Splunk and OracleDB.",
+      "Automated end-to-end RCA workflows so production issues no longer start with manual triage."
+    ],
+    "results": [
+      "30% reduction in incident resolution time."
+    ],
+    "skills": [
+      "langgraph",
+      "rag",
+      "azure-ai-search",
+      "mcp",
+      "splunk",
+      "oracle",
+      "multi-agent"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "fallout-clearance",
+    "title": "Automated payment fallout clearance",
+    "kicker": "Production · Lumen Technologies",
+    "org": "lumen",
+    "period": "2024 – 2026",
+    "summary": "A Python pipeline that detects, classifies and clears daily payment fallouts.",
+    "problem": "Billing exceptions piled up daily and were cleared by hand, so the same incidents kept recurring.",
+    "approach": [
+      "Python pipeline integrating OracleDB through custom SQL scripts with rule-based classification.",
+      "Deployed into the payments processing system with Docker."
+    ],
+    "results": [
+      "45% reduction in recurring incidents.",
+      "Consistent SLA adherence for daily issue clearance."
+    ],
+    "skills": [
+      "python",
+      "oracle",
+      "sql",
+      "docker"
+    ]
+  },
+  {
+    "slug": "movie-greenlighting",
+    "title": "Persona-based movie greenlighting simulation",
+    "kicker": "Research · SwiftAI Labs",
+    "org": "swiftai",
+    "period": "2025 – 2026",
+    "summary": "A multi-agent simulation of audience personas evaluating movie scripts.",
+    "problem": "Greenlighting decisions depend on how different audiences would respond, which is expensive to measure before production.",
+    "approach": [
+      "Scraped and cleaned 10,000+ IMDb profiles and reviews and clustered them into seven audience personas.",
+      "CrewAI-orchestrated agents simulate each persona evaluating a script across multiple parameters."
+    ],
+    "results": [
+      "78% alignment with human experts.",
+      "23% boost in box-office prediction accuracy.",
+      "60% improvement in persona-based review generation accuracy."
+    ],
+    "skills": [
+      "crewai",
+      "clustering",
+      "multi-agent",
+      "python"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "gradly",
+    "title": "Gradly.ai",
+    "kicker": "Product · SwiftAI Labs",
+    "org": "swiftai",
+    "period": "2025 – 2026",
+    "summary": "A multi-agent platform that shortlists universities for applicants.",
+    "problem": "Shortlisting universities usually takes counselors weeks of manual comparison.",
+    "approach": [
+      "LangChain multi-agent platform with Perplexity-driven RAG over 500+ institutions.",
+      "A guided Q&A agent collects user context and generates personalized application documents through RAG."
+    ],
+    "results": [
+      "85% alignment with counselor recommendations.",
+      "Shortlisting time reduced from weeks to under a day."
+    ],
+    "skills": [
+      "langchain",
+      "rag",
+      "multi-agent",
+      "prompting"
+    ]
+  },
+  {
+    "slug": "knowledge-assistant",
+    "title": "Enterprise knowledge assistant and retrieval migration",
+    "kicker": "Production · Unisys",
+    "org": "unisys",
+    "period": "2026",
+    "summary": "A RAG-powered assistant over knowledge bases from several business units, later moved to a newer retrieval architecture.",
+    "problem": "Support knowledge was spread across business units and hard to search, and plain RAG hit a retrieval accuracy ceiling.",
+    "approach": [
+      "Built an internal knowledge assistant across multiple business units' knowledge-base articles, then productized it for a client's own content across regions.",
+      "Led part of the migration from RAG to a newer retrieval architecture (OKF), rolled out wherever RAG had been implemented.",
+      "Added agentic enhancements to IT service management: resolution notes generated from work notes, chat exchanges and call summaries, with PII masked by Presidio."
+    ],
+    "results": [
+      "Improved retrieval accuracy after the migration."
+    ],
+    "skills": [
+      "rag",
+      "azure",
+      "presidio",
+      "multi-agent",
+      "python"
+    ],
+    "featured": true
+  }
+]
