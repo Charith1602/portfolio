@@ -1,0 +1,41 @@
+{
+  "name": "Charith Rage",
+  "headline": "I build agentic AI systems and measure whether they can be trusted.",
+  "role": "AI/ML Engineer, Global Innovation Office",
+  "org": "Unisys",
+  "location": "Bengaluru, India",
+  "summary": [
+    "I work at the point where research ideas meet production constraints: multi-agent systems, retrieval pipelines, and the evaluation methods that tell you whether they actually work.",
+    "My path started with an assistive vision system for visually impaired users, moved through two IEEE papers in multimodal retrieval and clinical computer vision, and now runs through enterprise AI at Unisys, where I help turn cross-business problems into deployed agentic systems.",
+    "I am applying to MS programs in the US to go deeper on scalable agent architectures and reliability."
+  ],
+  "email": "ragecharith@gmail.com",
+  "links": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/Charith1602"
+    }
+  ],
+  "stats": [
+    {
+      "value": "30%",
+      "label": "faster incident resolution",
+      "context": "Multi-agent RCA assistant for a payments team"
+    },
+    {
+      "value": "45%",
+      "label": "fewer recurring incidents",
+      "context": "Automated payment-fallout clearance pipeline"
+    },
+    {
+      "value": "99.25%",
+      "label": "classification accuracy",
+      "context": "Oral cancer detection on histopathology images"
+    },
+    {
+      "value": "2",
+      "label": "IEEE conference papers",
+      "context": "Multimodal retrieval and clinical computer vision"
+    }
+  ]
+}

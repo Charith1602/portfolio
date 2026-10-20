@@ -1,0 +1,65 @@
+[
+  {
+    "id": "unisys",
+    "org": "Unisys",
+    "title": "AI/ML Engineer, Global Innovation Office",
+    "period": "Jul 2026 – Present",
+    "blurb": "A horizontal AI enablement team under the Office of the CTO: find problems that cut across business units, prototype fast, deploy a first version, then hand it to the owning team.",
+    "bullets": [
+      "Lead and monitor several concurrent use cases, contributing development, architecture decisions and Azure infrastructure design.",
+      "Run technical discovery with business leaders and turn unstructured requirements into specs, proofs of concept and internal first deployments.",
+      "Built and productized a RAG-powered internal knowledge assistant over knowledge-base articles from multiple business units.",
+      "Led part of a migration of retrieval from RAG to a newer architecture (OKF) for better retrieval accuracy.",
+      "Mentor associate engineers and interns on agentic AI work; work with DevOps and Security on architectural safety during active development."
+    ]
+  },
+  {
+    "id": "lumen",
+    "org": "Lumen Technologies",
+    "title": "Software Development Engineer",
+    "period": "Jan 2024 – Jul 2026",
+    "blurb": "Payments team: monitoring transaction flows across enterprise billing systems and removing the manual work from root-cause analysis.",
+    "bullets": [
+      "Built a multi-agent LangGraph chatbot with RAG over Azure AI Search that automates Splunk log analysis and database lookups, cutting incident resolution time by 30%.",
+      "Architected an MCP server with dedicated tools per module, integrating Splunk and OracleDB to automate end-to-end RCA workflows.",
+      "Developed a Python pipeline with custom SQL and rule-based classification to detect and clear daily payment fallouts, cutting recurring incidents by 45%.",
+      "Deployed the fallouts pipeline with Docker for consistent SLA adherence."
+    ]
+  },
+  {
+    "id": "swiftai",
+    "org": "SwiftAI Labs",
+    "title": "AI Researcher",
+    "period": "Apr 2025 – Jul 2026",
+    "blurb": "An independent AI research collective working on multi-agent simulation and agentic products.",
+    "bullets": [
+      "Clustered 10,000+ scraped and cleaned IMDb profiles and reviews into seven audience personas for movie greenlighting research.",
+      "Built a CrewAI-orchestrated multi-agent MVP in which personas evaluate scripts, reaching 78% alignment with human experts.",
+      "Built Gradly.ai, a LangChain multi-agent platform with Perplexity-driven RAG that shortlists universities from 500+ institutions."
+    ]
+  },
+  {
+    "id": "samsung",
+    "org": "Samsung PRISM",
+    "title": "Deep Learning Intern",
+    "period": "Feb 2023 – Sep 2023",
+    "blurb": "Industry research collaboration on vision-language models.",
+    "bullets": [
+      "Fine-tuned CLIP on Flickr8k, improving Precision@1 by 29% over the pretrained baseline.",
+      "Designed the CEITM evaluation framework and used it to benchmark CLIP, BLIP and ALBEF.",
+      "Published at IEEE InCCCS 2024 and received Samsung's Excellence Award."
+    ]
+  },
+  {
+    "id": "ramaiah",
+    "org": "Ramaiah Institute of Technology",
+    "title": "B.Tech, Computer Science and Engineering",
+    "period": "2020 – 2024",
+    "blurb": "First Class with Distinction. Coursework spanning algorithms, AI, data mining and machine learning, and deep learning, ending in a clinical computer vision capstone.",
+    "bullets": [
+      "CGPA 8.73.",
+      "Capstone with Ramaiah Dental College: second place at the final-year project exhibition.",
+      "IEEE Computer Society Chair; three years as Co-Chair in Rotaract, running blood donation camps and eco-friendly workshops across ten schools."
+    ]
+  }
+]

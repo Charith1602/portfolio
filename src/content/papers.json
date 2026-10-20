@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ceitm",
+    "title": "CLIP-Based Image Retrieval: A Comparative Study Using CEITM Evaluation",
+    "venue": "IEEE International Conference on Communications and Computer Science (InCCCS)",
+    "year": 2024,
+    "status": "Published",
+    "summary": "Introduces CEITM, an evaluation framework that derives ground truth from semantic similarity instead of manual annotation, and uses it to benchmark CLIP, BLIP and ALBEF."
+  },
+  {
+    "id": "oral-cancer",
+    "title": "Predictive Cloud-Based Application for the Early Detection and Risk Stratification of Oral Cancer using Keratin Pearls, Multiple Nucleoli and Vascular Invasion",
+    "venue": "IEEE International Conference on Computer Science and Engineering (ICSEC)",
+    "year": 2024,
+    "status": "Published",
+    "summary": "A multi-model pipeline that classifies oral squamous lesions and detects three histopathological biomarkers to produce a pathologist-facing risk report."
+  },
+  {
+    "id": "artificial-eye",
+    "title": "Artificial Eye",
+    "venue": "arXiv:2308.00801",
+    "year": 2023,
+    "status": "Preprint",
+    "summary": "An assistive navigation aid for visually impaired users on a Raspberry Pi, combining object detection, OCR and text-to-speech.",
+    "href": "https://arxiv.org/abs/2308.00801"
+  }
+]
